@@ -1,13 +1,12 @@
 package mariapiabaldoin.Giorno_2.entities;
 
-import java.util.ArrayList;
 import java.util.List;
 
 
 public class Pizza extends Elemento {
 
 
-    private List<Topping> toppings = new ArrayList<>();
+    private List<Topping> toppings;
 
 
     public Pizza(String nome, int informazioniNutrizionali, double prezzo, List<Topping> toppings) {
